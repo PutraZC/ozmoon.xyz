@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "message": "shop.ozmoon.xyz (under development)",
+    "type": "info",
+    "scope": "global",
+    "dismissible": true,
+    "expired": "24h",
+    "date": "2026-04-09"
+  },
+  {
+    "id": 2,
+    "message": "Our Pre-CBT1 server is permanently shutdown. Thanks for playing!",
+    "type": "maintenance",
+    "scope": "global",
+    "dismissible": true,
+    "expired": "168h",
+    "date": "2026-04-02",
+    "link": "/guide"
+  }
+]

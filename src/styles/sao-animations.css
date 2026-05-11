@@ -1,0 +1,76 @@
+/* src/styles/sao-animations.css - Core UI Physics */
+.sao-menu-viewport {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+.sao-glass-panel {
+  /* Mimicking the curved, floating ALO menu plane */
+  transform: rotateY(-3deg) translateZ(15px);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+              box-shadow 0.4s ease;
+  box-shadow: 0 8px 32px 0 rgba(36, 36, 36, 0.37); /* Zekken Obsidian shadow */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sao-glass-panel:hover {
+  /* Hover state pushes the menu forward towards the user */
+  transform: rotateY(0deg) translateZ(30px) scale(1.02);
+  box-shadow: 0 12px 48px 0 rgba(108, 22, 199, 0.5); /* Zekken Tunic glow */
+}
+
+/* Animations for Avatar */
+@keyframes levitate {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-levitate {
+  animation: levitate 6s ease-in-out infinite;
+}
+
+/* OSS Visualizer Animations */
+@keyframes drawPath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.path-anim {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawPath 0.15s linear forwards; /* Superfast system assist speed */
+}
+
+@keyframes flashScreen {
+  0% {
+    background-color: transparent;
+    filter: brightness(1);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.4);
+    filter: brightness(2) blur(4px);
+  }
+  100% {
+    background-color: transparent;
+    filter: brightness(1);
+  }
+}
+
+.oss-impact-flash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  pointer-events: none;
+  animation: flashScreen 0.5s ease-out;
+}

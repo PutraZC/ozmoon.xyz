@@ -1,0 +1,224 @@
+[{
+
+    "date": "2026-04-09 | Minor Web Changes ",
+    "changes": [
+        "Add shop website. instant delivery (under development)"
+    ]
+},{
+
+    "date": "2026-04-01 | Minor Server Changes ",
+    "changes": [
+        "Shutdown Pre-CBT1 Server",
+        "Remove Pre-CBT1 Guide"
+    ]
+},{
+
+    "date": "2026-03-28 | Minor Web & Server Changes ",
+    "changes": [
+        "[WEB] Added Badge to Card",
+        "[WEB] Adjust product & prices",
+        "[WEB] Fixed Changelog Popup now every 12hours",
+        "[SERVER] Sync 4.1 resource to server, along with 4.2 battle & endgame content."
+    ]
+},{
+
+    "date": "2026-03-18 | Major Web Changes ",
+    "changes": [
+        "ReDesign web SAO style credit goes to Yuuki"
+    ]
+},{
+
+    "date": "2026-03-18 | Major Web & Server Changes ",
+    "changes": [
+        "[SERVER] Server now support (4.1.51) server-status name: jhb2-riskasr",
+        "[WEB] Bring back Beta Private server tutorial page on Guide (PC ONLY!)"
+    ]
+},{
+
+    "date": "2026-03-16 | Major Web Changes ",
+    "changes": [
+        "Improve UI Console",
+        "Upgrade Websocket now handle ingame username to login",
+        "Added Alot changes for Webconsole",
+        "Added Customize Announcement Bar"
+    ]
+},{
+
+    "date": "2026-03-15 | Minor Web Changes ",
+    "changes": [
+        "Added Websocket Console for HSR Pre-CBT Server"
+    ]
+},{
+
+    "date": "2026-03-13 | Minor Web Changes ",
+    "changes": [
+        "Update Guide Docs (added Pre-CBT tutorial and remove some unused tutorial)",
+        "Update server-status to track latest official beta & added jhb1-snowflake for Pre-CBT Server"
+    ]
+},{
+
+    "date": "2026-03-12 | Major Server Changes ",
+    "changes": [
+        "Shutdown 4.0 johor/malaysia Server for some reason (until 4.1 out maybe)",
+        "Create Pre-CBT v0.56 Server located on Johor/Malaysia (server status name:jhb1-snowflake)."
+    ]
+},{
+
+    "date": "2026-03-07 | Minor Server Changes ",
+    "changes": [
+        "Shutdown Izmir/Turkey Server for some reason (until 4.2 out maybe)",
+        "4.1 Server is ready to open in Asia/Manila."
+    ]
+},{
+
+    "date": "2026-03-04 | Major Web Changes ",
+    "changes": [
+        "Update About Us & Shop page",
+        "Update Server-Status page",
+        "refactor cards",
+        "Added more custom buttons"
+    ]
+},{
+
+    "date": "2026-03-02 | Major Web Changes ",
+    "changes": [
+        "Add Guide Page",
+        "Add 404 error Page",
+        "Move Docs/Guide to Web",
+        "Add HSR Beta Server Tracker on Server Status",
+        "Better way fetch/load Change Logs info"
+    ]
+},{
+
+    "date": "2026-02-28 | Minor Server Changes ",
+    "changes": [
+        "Create another 4.0 server located on Izmir/Turkey",
+        "New Server IP: hsr01.ozmoon.xyz:7358",
+        "Prepare 4.1.0 Server (UNFINISHED), Testing in id1-home server"
+    ]
+},{
+
+    "date": "2026-02-26 | Minor Server Changes ",
+    "changes": [
+        "Sync Ori Server Event & Banners",
+        "Kick Player after enter nextphase",
+        "Add more missing res",
+        "Change server from http://hsr01.ozmoon.xyz:17091 to https://hsr01.ozmoon.xyz"
+    ]
+},{
+
+    "date": "2026-02-14 | Major Server Changes ",
+    "changes": [
+        "Server now support (4.0.0)",
+        "Server: hsr01.ozmoon.xyz:17091"
+    ]
+},{
+    "date": "2025-02-06 | Minor Server Changes ",
+    "changes": [
+        "Add alt way to handle The Herta technique (Mark Chest)",
+        "Implement More packet handle to avoid crash/disconnected"
+    ]
+},{
+    "date": "2025-02-03 | Major Beta Server Changes ",
+    "changes": [
+        "Fully fixed multipath",
+        "Refactor EraFlipper with game logic & Add Handler for ChangeFlipperData",
+        "Support Enter (3.0.5x) Map Scene/Raid",
+        "Add way to unlock to auto unlock AvatarSkin",
+        "Fix alot of missing floorid, This means endgame content mostly fixed with new boss!",
+        "Implement PamSkin with handler & Set Auto Unlock",
+        "Add missing upcoming Event"
+    ]
+},{
+    "date": "2025-01-30 | Major Beta Server Changes ",
+    "changes": [
+        "Implement alot of functions to support avoid disconnect on beta server",
+        "Refactor alot of FFCore commands & Excel",
+        "Minimum Support to Playing Beta Server (still not playable tbh)",
+        "Add alot of Excel Data Support (included AvatarSkin)",
+        "Implement EraFlipper (Amphoreus Daylight) to avoid client crash/disconnected when packet recv",
+        "Implement Amphoreus Offering Data",
+        "Support to apply freesr-data.json"
+    ]
+},{
+    "date": "2025-01-30 | Major Prod Server Changes ",
+    "changes": [
+        "Server now support (2.7.0)",
+        "Create new server support latest beta (3.0.5x) located on Makassar (Indonesia)"
+    ]
+},{
+    "date": "2024-10-30 | Major Prod Server Changes",
+    "changes": [
+        "Sync to FFCore",
+        "Update server to FFCore feature"
+    ]
+},{
+    "date": "2024-10-28 | Minor Prod Server Changes",
+    "changes": [
+        "Server now support (2.6.0)"
+    ]
+},{
+    "date": "2024-09-14 | Minor Prod Server Changes",
+    "changes": [
+        "Server now support (2.5.0)",
+        "Fix pet, challenge, windseed",
+        "Npc excel map",
+        "Apply Original Changes to server"
+    ]
+},{
+    "date": "2024-08-31",
+    "changes": [
+        "Minor changes on Server config",
+        "Prepare 2.5.0"
+    ]
+},{
+    "date": "2024-08-17",
+    "changes": [
+        "Avoid triggered random quest",
+        "Update AvatarMultiPath",
+        "Fix some area locked (missing resources)",
+        "Fix some scene not available",
+        "fix lock/discard items & moc list",
+        "Refactor player sync packet",
+        "Fixed alot of issues"
+    ]
+},{
+    "date": "2024-08-01",
+    "changes": [
+        "Server now support (2.4.0)"
+    ]
+},{
+    "date": "2024-07-12",
+    "changes": [
+        "Fix WeightedList error in SU",
+        "Fix SU blessing Selector",
+        "Improve Ban Command and Delete Stop Command",
+        "Add Simple Character move/tp command",
+        "Attempt to implement some prop interactions",
+        "Add some missing Resources",
+        "Fix techniques that reduce enemy toughness"
+    ]
+},{
+    "date": "2024-06-21",
+    "changes": [
+        "Discord Webhook Packet logs to for debug purpose",
+        "Update Full 2.3.0 ActivityScheduling (InGame events)",
+        "feat(Ban System) kinda useless but fun for me",
+        "Fix ChallengeManager typo",
+        "Fixed Tingyun, Pela, HuoHuo, Jingliu, Yukong, Welt, FuXuan Techniques"
+    ]
+},{
+    "date": "2024-06-19",
+    "changes": [
+        "Server now support (2.3.0)",
+        "Support Windy lua",
+        "Remove Server Announcement"
+    ]
+},{
+    "date": "2000-01-01",
+    "changes": [
+        "Upgrade Server Specification to handle more player",
+        "Remove subserver (causing high cpu load)",
+        "Changed server location to Tokyo/Japan"
+    ]
+}]

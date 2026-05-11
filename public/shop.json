@@ -1,0 +1,63 @@
+[
+  {
+    "title": "RDP/VPS | 2vCPU/2GB RAM/50GB HDD (7day)",
+    "description": "Purchase to Host your own Software for public. 2-4 hours delivery upon payment received\n\n1. Unlocked Region List:\n • Jeddah/Riyadh (Saudi Arabia)\n• Manila/Clark (Philipines)\n• Cairo (Egypt)\n•Johor (Malaysia)\n•Monterrey (Mexico)\n2. one-time active warranty is valid for 3 Days after purchase.\n3. 2-4 hours delivery upon payment received\n4. Dedicated IP Public\n5. Priority Support For 24h",
+    "price": 1.12,
+    "discountPrice": 0.50,
+    "stock": 21,
+    "badge": "BEST SELLER",
+    "maxDescLength": 87,
+    "buttons": {
+        "buy": {
+            "text": "Purchase Via Discord",
+            "url": "https://discord.com/users/505287730700222466"
+        },
+        "secondary": {
+            "text": "Purchase Via Website",
+            "url": "https://shop.ozmoon.xyz"
+        }
+    }
+},
+
+{
+    "title": "Memory Upgrade",
+    "description": "Purchase memory upgrade to unlock higher memory limits & allow higher memory usage without interruptions.\n\n1. Get + 1 GB ram permanently for your server (No monthly payments)\n2. Handle more load players, scripts & custom software without lagging\n3. Can be purchased more than one time, up to 6 GB of extra ram\n4. 1-3 hours delivery upon payment received",
+    "price": 3.85,
+    "stock": 0,
+    "maxDescLength": 104,
+    "buttons": {
+      "buy": {
+        "text": "Purchase Via Discord",
+        "url": "https://discord.com/users/758583024278700042"
+      }
+    }
+  },
+
+{
+    "title": "Core Upgrade",
+    "description": "Purchase CPU cores upgrade to unlock higher CPU usage limits & allow better performance without interruptions.\n\n1. Get + 1 CPU core permanently for your server (No monthly payments)\n2. Handle more load players, scripts & custom software without lagging\n3. Each purchased core has 60% of usable CPU usage, if you already have max of 60% CPU, after buying extra core you will have a max of 120%\n4. Can be purchased maximum up to 1 core\n5. 1-3 hours delivery upon payment received",
+    "price": 4.69,
+    "stock": 0,
+    "maxDescLength": 109,
+    "buttons": {
+      "buy": {
+        "text": "Purchase Via Discord",
+        "url": "https://discord.com/users/758583024278700042"
+      }
+    }
+  },
+
+{
+    "title": "RDP/VPS | 4vCPU/8GB RAM/160GB NVMe (7day)",
+    "description": "Purchase to Host your own Software for public. 3-8 hours delivery upon payment received\n\n1. Unlocked Region List:\n • Izmir (Turkey)\n• Manila/Clark (Philipines)\n• Cairo (Egypt)\n2. one-time active warranty is valid for 3 Days after purchase.\n3. 3-8 hours delivery upon payment received\n4. Dedicated IP Public + Subdomain (if needed)\n5. Priority Support For 24h",
+    "price": 2.94,
+    "stock": 0,
+    "maxDescLength": 87,
+    "buttons": {
+        "buy": {
+            "text": "Purchase Via Discord",
+            "url": "https://discord.com/users/505287730700222466"
+        }
+    }
+}
+]

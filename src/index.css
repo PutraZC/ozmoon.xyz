@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SAO Theme */
+@layer base {
+  :root {
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: dark;
+    color: #fefafa;
+    background-color: #242424;
+    background-image: url('./assets/T_Card57.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgba(36, 36, 36, 0.85);
+    backdrop-filter: blur(8px);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+
+  a {
+    color: #ffbefa;
+    text-decoration: inherit;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #fda1e1;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+::-webkit-scrollbar-thumb {
+  background: #6c16c7;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #320a5c;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.announcement-enter {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes levitate {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+.animate-levitate {
+  animation: levitate 6s ease-in-out infinite;
+}
+
+/* SAO Glass Panel */
+.bg-sao-glass {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.sao-glass-panel {
+  transform: rotateY(-3deg) translateZ(15px);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  box-shadow: 0 8px 32px 0 rgba(36, 36, 36, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.sao-glass-panel:hover {
+  transform: rotateY(0deg) translateZ(30px) scale(1.02);
+  box-shadow: 0 12px 48px 0 rgba(108, 22, 199, 0.5);
+}
