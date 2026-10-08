@@ -1,5 +1,5 @@
 import '../../styles/sao-animations.css';
-import { FaDiscord, FaTiktok, FaYoutube, FaInstagram, FaStore } from 'react-icons/fa';
+import { FaDiscord, FaTiktok} from 'react-icons/fa';
 import logoUrl from '../../assets/T_ActivityRoleAimisi.png';
 
 const HeroSection = () => {
@@ -40,9 +40,6 @@ const HeroSection = () => {
             </a>
             <a href="https://www.tiktok.com/@putrazc__" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-all duration-300 transform hover:-translate-y-1 hover:scale-110 text-3xl drop-shadow-lg">
               <FaTiktok />
-            </a>
-            <a href="/shop" className="text-gray-400 hover:text-rosario-light transition-all duration-300 transform hover:-translate-y-1 hover:scale-110 text-3xl drop-shadow-lg">
-              <FaStore />
             </a>
           </div>
         </div>

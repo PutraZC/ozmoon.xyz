@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       name: 'File Manager',
       description: 'Shared file storage and distribution server.',
       links: [
-        { label: 'File', url: 'https://file.ozmoon.xyz' }
+        { label: 'File', url: 'https://files.ozmoon.xyz' }
       ],
       variant: 'primary',
     },

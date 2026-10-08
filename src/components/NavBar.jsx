@@ -31,9 +31,6 @@ function Navbar() {
             <Link to="/" className="font-body text-zekken-skin hover:text-rosario-light hover:-translate-y-0.5 transition-all duration-200">
               Home
             </Link>
-            <Link to="/shop" className="font-body text-zekken-skin hover:text-rosario-light hover:-translate-y-0.5 transition-all duration-200">
-              Shop
-            </Link>
             <Link to="https://discord.ozmoon.xyz" className="font-body text-zekken-skin hover:text-rosario-light hover:-translate-y-0.5 transition-all duration-200">
               Discord
             </Link>
@@ -44,9 +41,6 @@ function Navbar() {
           <div className="flex flex-col gap-3 mt-4 pt-3 border-t border-sao-border md:hidden">
             <Link to="/" onClick={() => setMenuOpen(false)} className="font-body text-zekken-skin hover:text-rosario-light py-1 transition-colors">
               Home
-            </Link>
-            <Link to="/shop" onClick={() => setMenuOpen(false)} className="font-body text-zekken-skin hover:text-rosario-light py-1 transition-colors">
-              Shop
             </Link>
             <Link to="https://discord.ozmoon.xyz" onClick={() => setMenuOpen(false)} className="font-body text-zekken-skin hover:text-rosario-light py-1 transition-colors">
               Discord

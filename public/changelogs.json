@@ -1,5 +1,17 @@
 [{
 
+    "date": "2026-10-08 | Major Web Changes ",
+    "changes": [
+        "Remove all unnecessary things"
+    ]
+},{
+
+    "date": "2026-06-22 | Major Server Changes ",
+    "changes": [
+        "Shutdown our Hosted online HSR Server"
+    ]
+},{
+
     "date": "2026-04-09 | Minor Web Changes ",
     "changes": [
         "Add shop website. instant delivery (under development)"

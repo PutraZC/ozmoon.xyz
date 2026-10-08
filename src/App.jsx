@@ -2,9 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 import ChangelogModal from "./components/ChangeLog"
 import Navbar from "./components/NavBar"
-import GuidePage from "./pages/GuidePage"
 import NotFound from "./pages/NotFound"
-import Shop from "./pages/Shop"
 import AnnouncementStack from "./components/AnnouncementStack"
 import HeroSection from "./features/profile/HeroSection"
 import ProjectsSection from "./features/profile/ProjectsSection"
@@ -72,8 +70,6 @@ function AppContent() {
               </div>
             </>
           } />
-          <Route path="/guide" element={<GuidePage />} />
-          <Route path="/shop" element={<Shop />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
